@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
     FontUbuntuSourceOverlay
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/magnolia-script.regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/magnolia-script.regular.ttf \
     $(LOCAL_PATH)/prebuilt/Cagliostro-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Cagliostro-Regular.ttf \
     $(LOCAL_PATH)/prebuilt/FiraSans-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-Bold.ttf \
     $(LOCAL_PATH)/prebuilt/FiraSans-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-BoldItalic.ttf \
